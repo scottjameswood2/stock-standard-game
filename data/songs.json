@@ -1,0 +1,598 @@
+{
+ "_notes": "Original in-game songs, synthesised live by src/core/music.js. key = MIDI root of the tonic (low E = 40). chords are scale degrees per bar of each section. Charts are generated from these at runtime. Sections were trimmed so each song runs about 30-40 seconds.",
+ "songs": [
+  {
+   "id": "semi_shuffle",
+   "title": "Semi-Trailer Shuffle",
+   "bpm": 132,
+   "key": 45,
+   "feel": "shuffle",
+   "sections": [
+    [
+     "intro",
+     2,
+     [
+      "I",
+      "I",
+      "IV",
+      "I"
+     ]
+    ],
+    [
+     "verse",
+     4,
+     [
+      "I",
+      "IV",
+      "I",
+      "V"
+     ]
+    ],
+    [
+     "chorus",
+     4,
+     [
+      "IV",
+      "I",
+      "V",
+      "I"
+     ]
+    ],
+    [
+     "verse",
+     2,
+     [
+      "I",
+      "IV",
+      "I",
+      "V"
+     ]
+    ],
+    [
+     "chorus",
+     4,
+     [
+      "IV",
+      "I",
+      "V",
+      "I"
+     ]
+    ],
+    [
+     "outro",
+     1,
+     [
+      "I",
+      "I"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "schooner_sunday",
+   "title": "Schooner Sunday",
+   "bpm": 118,
+   "key": 40,
+   "feel": "straight",
+   "sections": [
+    [
+     "intro",
+     2,
+     [
+      "I",
+      "bVII",
+      "IV",
+      "I"
+     ]
+    ],
+    [
+     "verse",
+     4,
+     [
+      "I",
+      "bVII",
+      "IV",
+      "I"
+     ]
+    ],
+    [
+     "chorus",
+     4,
+     [
+      "IV",
+      "V",
+      "I",
+      "vi"
+     ]
+    ],
+    [
+     "bridge",
+     2,
+     [
+      "vi",
+      "IV",
+      "V",
+      "V"
+     ]
+    ],
+    [
+     "chorus",
+     4,
+     [
+      "IV",
+      "V",
+      "I",
+      "vi"
+     ]
+    ],
+    [
+     "outro",
+     1,
+     [
+      "I",
+      "I"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "fascinator",
+   "title": "Fascinator",
+   "bpm": 140,
+   "key": 50,
+   "feel": "straight",
+   "sections": [
+    [
+     "intro",
+     2,
+     [
+      "I",
+      "V",
+      "vi",
+      "IV"
+     ]
+    ],
+    [
+     "verse",
+     4,
+     [
+      "I",
+      "V",
+      "vi",
+      "IV"
+     ]
+    ],
+    [
+     "chorus",
+     4,
+     [
+      "IV",
+      "V",
+      "I",
+      "I"
+     ]
+    ],
+    [
+     "verse",
+     2,
+     [
+      "I",
+      "V",
+      "vi",
+      "IV"
+     ]
+    ],
+    [
+     "chorus",
+     4,
+     [
+      "IV",
+      "V",
+      "I",
+      "I"
+     ]
+    ],
+    [
+     "outro",
+     1,
+     [
+      "I",
+      "I"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "long_walk",
+   "title": "Long Walk From The Bar",
+   "bpm": 104,
+   "key": 43,
+   "feel": "straight",
+   "sections": [
+    [
+     "intro",
+     2,
+     [
+      "I",
+      "IV",
+      "I",
+      "IV"
+     ]
+    ],
+    [
+     "verse",
+     4,
+     [
+      "I",
+      "IV",
+      "vi",
+      "V"
+     ]
+    ],
+    [
+     "chorus",
+     4,
+     [
+      "IV",
+      "I",
+      "V",
+      "vi"
+     ]
+    ],
+    [
+     "bridge",
+     2,
+     [
+      "ii",
+      "V",
+      "ii",
+      "V"
+     ]
+    ],
+    [
+     "chorus",
+     4,
+     [
+      "IV",
+      "I",
+      "V",
+      "I"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "beret_beat",
+   "title": "Beret Beat",
+   "bpm": 150,
+   "key": 40,
+   "feel": "straight",
+   "sections": [
+    [
+     "intro",
+     2,
+     [
+      "I",
+      "I",
+      "bVII",
+      "IV"
+     ]
+    ],
+    [
+     "verse",
+     4,
+     [
+      "I",
+      "bVII",
+      "IV",
+      "I"
+     ]
+    ],
+    [
+     "chorus",
+     4,
+     [
+      "I",
+      "IV",
+      "V",
+      "IV"
+     ]
+    ],
+    [
+     "verse",
+     2,
+     [
+      "I",
+      "bVII",
+      "IV",
+      "I"
+     ]
+    ],
+    [
+     "chorus",
+     4,
+     [
+      "I",
+      "IV",
+      "V",
+      "IV"
+     ]
+    ],
+    [
+     "outro",
+     1,
+     [
+      "I",
+      "I"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "truckies_horn",
+   "title": "Truckie's Horn",
+   "bpm": 126,
+   "key": 45,
+   "feel": "straight",
+   "sections": [
+    [
+     "intro",
+     2,
+     [
+      "I",
+      "IV",
+      "V",
+      "IV"
+     ]
+    ],
+    [
+     "verse",
+     4,
+     [
+      "I",
+      "IV",
+      "V",
+      "IV"
+     ]
+    ],
+    [
+     "chorus",
+     4,
+     [
+      "vi",
+      "IV",
+      "I",
+      "V"
+     ]
+    ],
+    [
+     "bridge",
+     2,
+     [
+      "IV",
+      "IV",
+      "V",
+      "V"
+     ]
+    ],
+    [
+     "chorus",
+     4,
+     [
+      "vi",
+      "IV",
+      "I",
+      "V"
+     ]
+    ],
+    [
+     "outro",
+     1,
+     [
+      "I",
+      "I"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "colac_stomp",
+   "title": "Colac Cup Stomp",
+   "bpm": 136,
+   "key": 50,
+   "feel": "straight",
+   "soloSkull": true,
+   "sections": [
+    [
+     "intro",
+     2,
+     [
+      "I",
+      "bVII",
+      "IV",
+      "I"
+     ]
+    ],
+    [
+     "verse",
+     4,
+     [
+      "I",
+      "bVII",
+      "IV",
+      "I"
+     ]
+    ],
+    [
+     "chorus",
+     4,
+     [
+      "IV",
+      "I",
+      "V",
+      "I"
+     ]
+    ],
+    [
+     "solo",
+     8,
+     [
+      "I",
+      "bVII",
+      "IV",
+      "I"
+     ]
+    ],
+    [
+     "chorus",
+     4,
+     [
+      "IV",
+      "I",
+      "V",
+      "I"
+     ]
+    ],
+    [
+     "outro",
+     1,
+     [
+      "I",
+      "I"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "shout_me_one",
+   "title": "Mateship (Shout Me One)",
+   "bpm": 122,
+   "key": 48,
+   "feel": "straight",
+   "sections": [
+    [
+     "intro",
+     2,
+     [
+      "I",
+      "V",
+      "IV",
+      "V"
+     ]
+    ],
+    [
+     "verse",
+     4,
+     [
+      "I",
+      "V",
+      "vi",
+      "IV"
+     ]
+    ],
+    [
+     "chorus",
+     4,
+     [
+      "I",
+      "IV",
+      "V",
+      "V"
+     ]
+    ],
+    [
+     "verse",
+     2,
+     [
+      "I",
+      "V",
+      "vi",
+      "IV"
+     ]
+    ],
+    [
+     "chorus",
+     4,
+     [
+      "I",
+      "IV",
+      "V",
+      "I"
+     ]
+    ]
+   ]
+  },
+  {
+   "id": "lemon_launcher",
+   "title": "Lemon Launcher",
+   "bpm": 144,
+   "key": 47,
+   "feel": "straight",
+   "sections": [
+    [
+     "intro",
+     2,
+     [
+      "i",
+      "bVII",
+      "bVI",
+      "bVII"
+     ]
+    ],
+    [
+     "verse",
+     4,
+     [
+      "i",
+      "bVII",
+      "bVI",
+      "bVII"
+     ]
+    ],
+    [
+     "chorus",
+     4,
+     [
+      "bVI",
+      "bVII",
+      "i",
+      "i"
+     ]
+    ],
+    [
+     "solo",
+     4,
+     [
+      "i",
+      "bVII",
+      "bVI",
+      "bVII"
+     ]
+    ],
+    [
+     "chorus",
+     4,
+     [
+      "bVI",
+      "bVII",
+      "i",
+      "i"
+     ]
+    ]
+   ]
+  }
+ ],
+ "sets": [
+  [
+   "semi_shuffle",
+   "colac_stomp"
+  ]
+ ],
+ "requestPool": [
+  "schooner_sunday",
+  "truckies_horn",
+  "long_walk",
+  "shout_me_one",
+  "lemon_launcher"
+ ]
+}
